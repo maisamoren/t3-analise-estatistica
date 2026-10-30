@@ -49,8 +49,7 @@ t3-analise-estatistica-bioimagens/
 
 ## Como executar no Windows (RStudio)
 
-**Requisitos:** R e RStudio instalados; conexão à internet para a etapa de download.
-O código usa somente recursos da instalação padrão do R (*R base*).
+**Requisitos:** R e RStudio instalados.
 
 1. Baixe este repositório em **Code → Download ZIP** no GitHub e extraia
    o ZIP em uma pasta do Windows. Abra o RStudio.
@@ -124,23 +123,6 @@ correct = TRUE)` (aproximação normal com correção de continuidade).
 analisadas. Como mais de uma imagem pode ter origem no mesmo camundongo,
 **19 imagens não correspondem a 19 réplicas biológicas independentes**.
 Esse aspecto deve ser considerado ao interpretar a inferência estatística.
-
-## Como citar
-
-O artigo científico original e seus dados devem ser citados separadamente
-deste repositório. A fonte dos dados é a publicação de Segebarth et al. (2020)
-indicada acima; os scripts de reprodução são um material computacional associado
-ao trabalho acadêmico.
-
-Depois de publicar o repositório, acrescente seu endereço definitivo ao
-relatório, por exemplo:
-
-> Os scripts utilizados para a preparação dos dados e a reprodução dos testes
-> estatísticos estão disponíveis em repositório público no GitHub
-> (URL do repositório). Os dados de entrada foram obtidos do material suplementar
-> *Figure 5 — Source Data 1* de Segebarth et al. (2020).
-
-Para criar a referência BibTeX do repositório, veja `COMO_CITAR.md`.
 
 ## Observações
 
