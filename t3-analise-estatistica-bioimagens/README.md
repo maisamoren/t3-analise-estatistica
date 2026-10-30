@@ -9,8 +9,7 @@ biomédicas**. O objetivo do repositório é documentar a origem dos dados,
 os critérios de seleção e os procedimentos necessários para reproduzir os testes.
 
 > **Escopo:** esta reprodução compara as condições biológicas controle (`Ctrl`)
-> e extinção (`Ext`). Ela **não** testa a técnica de realce de contraste CLAHE,
-> que foi objeto de um trabalho acadêmico anterior.
+> e extinção (`Ext`).
 
 ## Artigo e origem dos dados
 
@@ -29,12 +28,12 @@ A disponibilidade do download depende da manutenção desses endereços pela eLi
 
 ```text
 t3-analise-estatistica-bioimagens/
-├── README.md
-├── baixar_dados.R
-├── reproducao_T3_detalhada.R
-├── conferir_resultados.R
 ├── resultados_exemplo/
 │   └── resultados_T3_detalhados.csv
+├── README.md
+├── baixar_dados.R
+├── conferir_resultados.R
+├── reproducao_T3_detalhada.R
 └── .gitignore
 ```
 
